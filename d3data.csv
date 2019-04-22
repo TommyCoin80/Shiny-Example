@@ -1,0 +1,39 @@
+"source","target","sourceBranch","targetBranch","freq"
+"Beach Club Villas","Seven Dwarfs Mine Train","hotel","Magic Kingdom",4
+"Beach Club Villas","Peter Pan's Flight","hotel","Magic Kingdom",2
+"Beach Club Villas","Space Ranger Spin","hotel","Magic Kingdom",2
+"Beach Club Villas","Space Mountain","hotel","Magic Kingdom",1
+"Beach Club Villas","Spaceship Earth","hotel","Epcot",1
+"Beach Club Villas","Test Track","hotel","Epcot",2
+"Beach Club Villas","Soarin'","hotel","Epcot",2
+"Beach Club Villas","Flights of Passage","hotel","Animal Kingdom",1
+"Beach Club Villas","Kilimanjaro Safaris","hotel","Animal Kingdom",1
+"Beach Club Villas","Midway Madness","hotel","Hollywood Studios",3
+"Beach Club Villas","Indiana Jones","hotel","Hollywood Studios",1
+"Space Mountain","Seven Dwarfs Mine Train","Magic Kingdom","Magic Kingdom",1
+"Seven Dwarfs Mine Train","Big Thunder Railroad","Magic Kingdom","Magic Kingdom",1
+"Seven Dwarfs Mine Train","Seven Dwarfs Mine Train","Magic Kingdom","Magic Kingdom",1
+"It's a Small World","Peter Pan's Flight","Magic Kingdom","Magic Kingdom",1
+"Peter Pan's Flight","It's a Small World","Magic Kingdom","Magic Kingdom",2
+"Space Ranger Spin","Astro Orbiter","Magic Kingdom","Magic Kingdom",1
+"Astro Orbiter","It's a Small World","Magic Kingdom","Magic Kingdom",1
+"Space Ranger Spin","Tomorrowland Transit","Magic Kingdom","Magic Kingdom",1
+"Tomorrowland Transit","Beach Club Villas","Magic Kingdom","hotel",1
+"Big Thunder Railroad","Beach Club Villas","Magic Kingdom","hotel",1
+"Kilimanjaro Safaris","It's Tough to be a Bug","Animal Kingdom","Animal Kingdom",1
+"It's Tough to be a Bug","Navi River Journey","Animal Kingdom","Animal Kingdom",1
+"It's Tough to be a Bug","Flights of Passage","Animal Kingdom","Animal Kingdom",1
+"Navi River Journey","Beach Club Villas","Animal Kingdom","hotel",1
+"Flights of Passage","Beach Club Villas","Animal Kingdom","hotel",1
+"Test Track","Mission Space","Epcot","Epcot",1
+"Soarin'","The Seas","Epcot","Epcot",1
+"Mission Space","The Seas","Epcot","Epcot",1
+"The Seas","Journey in to Imagination","Epcot","Epcot",1
+"Test Track","Beach Club Villas","Epcot","hotel",2
+"Midway Madness","Star Tours","Hollywood Studios","Hollywood Studios",2
+"Star Tours","Star Tours","Hollywood Studios","Hollywood Studios",2
+"Indiana Jones","Star Tours","Hollywood Studios","Hollywood Studios",1
+"Star Tours","Muppets 3D","Hollywood Studios","Hollywood Studios",2
+"Muppets 3D","Midway Madness","Hollywood Studios","Hollywood Studios",1
+"Star Tours","Tower of Terror","Hollywood Studios","Hollywood Studios",2
+"Star Tours","Beach Club Villas","Hollywood Studios","hotel",2
