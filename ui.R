@@ -4,8 +4,8 @@ dashboardPage(
     title= span(icon("area-chart"), 'Shiny Viz'),
     .list = list(
       tags$li(class='dropdown',
-              tags$a(href='https://www.subaru.com',
-                     tags$img(src='AA_STANDARD/IMAGES/logoSmall.png',height='50'), style='padding:0px;')
+              tags$a(href='#',
+                     tags$img(src='STANDARD_DASHBOARD/IMAGES/logoSmall.png',height='50'), style='padding:0px;')
       ),
       tags$li(class='dropdown', tags$a(href="#", id='expandRight', icon('edit',class = 'fa-lg'),onclick="return false;"))
     )
@@ -21,12 +21,12 @@ dashboardPage(
       useShinyjs(),
       tags$script(HTML("$('#expandRight').attr('data-toggle','control-sidebar')")),
       tags$script(src = "https://d3js.org/d3.v5.min.js" ,type='text/javascript', language='javascript'),
-      tags$script(src = 'AA_STANDARD/JS/aaScript.js', type='text/javascript', language='javascript'),
+      tags$script(src = 'STANDARD_DASHBOARD/JS/jsScript.js', type='text/javascript', language='javascript'),
       tags$script(src = 'treeChord.js', type ='text/javascript', language='javascript'),
       tags$head(
         tags$script(src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"),
         tags$script(HTML("WebFont.load({google: {families: ['Play']}});")),
-        tags$link(rel = "stylesheet", type = "text/css", href = "AA_STANDARD/CSS/aaStyle.css")
+        tags$link(rel = "stylesheet", type = "text/css", href = "STANDARD_DASHBOARD/CSS/standardStyle.css")
       )
     ),
     tags$head(

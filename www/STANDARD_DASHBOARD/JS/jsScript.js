@@ -100,9 +100,9 @@ var AdminLTEOptions = {
 }
 */
 
-var aaFuncs = {};
+var jsFuncs = {};
 
-aaFuncs.addSpinner = function($sel) {
+jsFuncs.addSpinner = function($sel) {
   
   if($sel.find('.overlay').length == 0) {
       var $overlay = $('<div></div>').addClass('overlay');
@@ -112,12 +112,9 @@ aaFuncs.addSpinner = function($sel) {
   
 }
 
-aaFuncs.removeSpinner = function($sel) {
+jsFuncs.removeSpinner = function($sel) {
   $sel.find('.overlay').remove();
 }
-
-
-
 
 
 
