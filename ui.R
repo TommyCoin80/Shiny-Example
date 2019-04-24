@@ -13,7 +13,8 @@ dashboardPage(
   dashboardSidebar(
     sidebarMenu(
       id = "sidebarMenu",
-      menuItem("D3.js",  icon = icon("pie-chart"), tabName="d3")
+      menuItem("D3.js",  icon = icon("pie-chart"), tabName="d3"),
+      menuItem("Deck.gl",  icon = icon("map"), tabName="deck")
     )
   ),
   dashboardBody(
@@ -21,6 +22,9 @@ dashboardPage(
       useShinyjs(),
       tags$script(HTML("$('#expandRight').attr('data-toggle','control-sidebar')")),
       tags$script(src = "https://d3js.org/d3.v5.min.js" ,type='text/javascript', language='javascript'),
+      tags$script(src="https://unpkg.com/deck.gl@~5.2.0/deckgl.min.js"),
+      tags$script(src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js"),
+      tags$link(rel = 'stylesheet', type = 'text/css', href = 'https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css'),
       tags$script(src = 'STANDARD_DASHBOARD/JS/jsScript.js', type='text/javascript', language='javascript'),
       tags$script(src = 'treeChord.js', type ='text/javascript', language='javascript'),
       tags$head(
@@ -42,6 +46,19 @@ dashboardPage(
             id = "d3Tabset",
             tabPanel("Viz", div(id = 'tree')),
             tabPanel("Data", DT::dataTableOutput('d3DataTable'))
+          )
+        )
+      ),
+      tabItem(
+        tabName='deck',
+        fluidRow(
+          tabBox(
+            title = "Deck.gl",width = 12,
+            # The id lets us use input$tabset1 on the server to find the current tab
+            id = "deckTabset",
+            tabPanel("Viz", div(id = 'deckMap', style='width:100%;height:800px')),
+            tabPanel("Data", DT::dataTableOutput('deckDataTable')),
+            tags$script(src='initDeck.js')
           )
         )
       )
