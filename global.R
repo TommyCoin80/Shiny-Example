@@ -8,7 +8,7 @@ library("shiny")
 library("DT")
 suppressPackageStartupMessages(library('dplyr'))
 
-d3Data <- read.csv('data/disneyWorlddata.csv',stringsAsFactors = F)
+d3Data <- read.csv('data/disneyWorldData.csv',stringsAsFactors = F)
 
 getD3DataTable <- function(df) {
   DT::datatable(
